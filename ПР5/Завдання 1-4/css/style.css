@@ -1,0 +1,21 @@
+.slider {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.slider #prev {
+    position: fixed;
+    left: 320px;
+}
+
+.slider #next {
+    position: fixed;
+    left: 350px;
+}
+
+img {
+  height: 300px;
+  object-fit: cover;
+}
